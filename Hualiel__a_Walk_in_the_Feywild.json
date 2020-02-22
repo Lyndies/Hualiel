@@ -1,0 +1,930 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HualielaWalkintheFeywild",
+				"abbreviation": "H:WF",
+				"full": "Hualiel: a Walk in the Feywild",
+				"url": "",
+				"authors": [
+					"Lyndies"
+				],
+				"convertedBy": [
+					"Lyndies"
+				]
+			}
+		],
+		"dateAdded": 1582410974,
+		"dateLastModified": 1582410974
+	},
+	"monster": [
+		{
+			"name": "Queen Titania",
+			"shortName": "Titania",
+			"isNamedCreature": true,
+			"source": "HualielaWalkintheFeywild",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "40d8 + 120",
+				"average": 300
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 10,
+			"dex": 25,
+			"con": 16,
+			"int": 25,
+			"wis": 25,
+			"cha": 30,
+			"save": {
+				"int": "+14",
+				"wis": "+14",
+				"cha": "+17"
+			},
+			"skill": {
+				"intimidation": "+17",
+				"perception": "+14",
+				"persuasion": "+17"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 24,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"All",
+				"Telepathy 120 ft."
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"will": [
+						"{@spell dancing lights|PHB}",
+						"{@spell druidcraft|PHB}",
+						"{@spell faerie fire|PHB}",
+						"{@spell light|PHB}",
+						"{@spell message|PHB}"
+					],
+					"daily": {
+						"1": [
+							"{@spell control weather|PHB}",
+							"{@spell heal|PHB}",
+							"{@spell mass suggestion|PHB}",
+							"{@spell mirage arcane|PHB}",
+							"{@spell wish|PHB}"
+						],
+						"3": [
+							"{@spell animate objects|PHB}",
+							"{@spell banishment|PHB}",
+							"{@spell charm person|PHB}",
+							"{@spell confusion|PHB}",
+							"{@spell counterspell|PHB}",
+							"{@spell detect magic|PHB}",
+							"{@spell detect thoughts|PHB}",
+							"{@spell dimension door|PHB}",
+							"{@spell dispel magic|PHB}",
+							"{@spell fog cloud|PHB}",
+							"{@spell hypnotic pattern|PHB}",
+							"{@spell invisibility|PHB}",
+							"{@spell mirror image|PHB}",
+							"{@spell modify memory|PHB}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Illumination",
+					"entries": [
+						"Titania sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Titania has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Titania's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Speak with Beasts and Plants",
+					"entries": [
+						"Titania can communicate with beasts and plants as if they shared a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Titania makes three attacks."
+					]
+				},
+				{
+					"name": "Diamond Wand",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) piercing damage plus 24 ({@damage 7d6}) radiant damage."
+					]
+				},
+				{
+					"name": "Summon Faeries (1/day)",
+					"entries": [
+						"Titania can use an action to summon {@dice 1d12} spring or summer faeries. They appear in unoccupied spaces within 30 feet of her."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"summer court"
+			],
+			"fluff": {
+				"entries": [
+					"Titania is the queen of the faeries and magic and rules the Seelie Court with her partner, Oberon. The proud queen is also the head of the Summer Court, a division of the Seelie Court. She and Oberon live in a massive forest complex known as the Tree Castle. It is located in the Great Tree and is home to her numerous minions.",
+					"{@b Good Queen.} Her sister became corrupted by darkness and was banished from the court. Titania still has hope the Queen of Darkness can return one day. She is an eternal optimistic and refuses to let thoughts cloud her vision.",
+					"{@b Loyal Leader}. Titania is loyal to her friends and allies, especially Oberon. Even though the Oak Lord pursues her, she ignores his romantic gestures."
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/SafC/Queen Titania.png?v=1.97.1",
+			"traitTags": [
+				"Illumination",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"uniqueId": "3268f6a57f0ebdc49c0a1156e8346342"
+		},
+		{
+			"name": "Gremlin, Azza",
+			"shortName": "Azza",
+			"group": "Gremlin",
+			"source": "HualielaWalkintheFeywild",
+			"size": "S",
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "2d6 + 0",
+				"average": 7
+			},
+			"speed": {
+				"walk": 10,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 5,
+			"dex": 18,
+			"con": 10,
+			"int": 12,
+			"wis": 13,
+			"cha": 10,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Contagious Lightning",
+					"entries": [
+						"A creature that touches the azza gremlin or hits it with a melee attack using a metal weapon receives a discharge of lightning. The creature must succeed on a {@dc 10} Constitution saving throw or attract lightning for 1 minute. For the duration, attacks that cause lightning damage have advantage against this creature, the creature has disadvantage on saving throws against lightning damage and lightning effects, and if the creature takes lightning damage, it is {@condition paralyzed} until the end of its next turn. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Jolt",
+					"entries": [
+						"{@atk mw,rw} {@hit +6} to hit, reach 5 ft. or range 30 ft., one target. {@h}3 ({@damage 1d6 - 3}) lightning damage, and the target is affected by Contagious Lightning."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ride the Bolt",
+					"entries": [
+						"The Azza gremlin can travel instantly along any bolt of lightning. When it is within 5 feet of a lightning effect, the Azza can teleport to any unoccupied space inside or within 5 feet of that lightning effect."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"These tiny, hairless, rail-thin creatures crackle with static electricity. Arcs of lightning snap between their long ears.",
+					"{@b Lightning Lovers.} Azza gremlins live among storm clouds, lightning-based machinery, and other places with an abundance of lightning.",
+					"{@b Magnetic Flight.} Although wingless, their light bodies are perfectly attuned to electromagnetic fields, giving them buoyancy and flight. They love playing in thunderstorms and riding lightning bolts between the clouds or between clouds and the ground. They feed off lightning and love to see its effects on other creatures.",
+					"{@b Work with Spellcasters.} Although they aren’t much more than hazardous pests by themselves, more malicious creatures and spellcasters that use lightning as a weapon work with azza gremlins to amplify their own destructiveness. Azza gremlins stand 12 to 18 inches tall and weigh approximately 8 lb."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://paperanddice.files.wordpress.com/2018/04/azza_gremlin1.png?w=770"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"P"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"uniqueId": "3ba57eae711345fa190113381dac037d"
+		},
+		{
+			"name": "Gremlin, Rum",
+			"shortName": "Rum",
+			"group": "Gremlin",
+			"source": "HualielaWalkintheFeywild",
+			"size": "T",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "5d4 + 10",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 10,
+				"swim": 10
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 9,
+			"cha": 12,
+			"skill": {
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The gremlin’s innate spellcasting ability is Charisma (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell prestidigitation|PHB}"
+					],
+					"daily": {
+						"3": [
+							"{@spell hex|PHB}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The rum has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Aura of Drunkenness",
+					"entries": [
+						" A rum gremlin radiates an aura of drunkenness to a radius of 20 feet. Every creature that starts its turn in the aura must make a successful {@dc 12} Constitution saving throw against poison or be {@condition poisoned} for one hour. Creatures that have drunk any alcohol during the previous hour have disadvantage on the saving throw. While affected by this poison, a creature falls {@condition prone} if it tries to move more than half its speed during a turn."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"feywild"
+			],
+			"fluff": {
+				"entries": [
+					"Found on docks and ships, these small, pot-bellied monstrosities have bright green hair, orange eyes, and a drunken stare. They are only a foot tall and weigh ten lb, but they are renowned for causing mischief far beyond their tiny size. Their mouths are filled with razor-sharp teeth.",
+					"{@b Drunken Aura.} Rum gremlins make their homes near the docks of seaside towns and some are known to stow away on ships. Each rum gremlin radiates a magic aura causing drunkenness affecting any creatures in the area. Those affected find it difficult to stay on their feet and may become sick from the effect.",
+					"{@b Sailor Victims.} The little horrors often create distracting sounds and small traps. Rum gremlins prey on sailors and dockworkers, working in groups to swarm affected victims who they drag into their lairs below docks or in the holds of ships. They also take great delight in the collateral damage their magic can wreak, frequently sparking accusations and quarrels in places they inhabit before picking off isolated victims.",
+					"{@b Rat Friends.} Rum gremlins are often found with rat swarms or doppelrats they have trained to help protect their nests. The sound of bells drives rum gremlins into a rage and they will go to great lengths to destroy the source of their torment."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://pbs.twimg.com/media/CSF-3hJWEAA4JNi.jpg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "3d976815bf49825453f36f238a76bc1a"
+		},
+		{
+			"name": "Sylph",
+			"shortName": "Sylph",
+			"source": "HualielaWalkintheFeywild",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "5d8 + 5",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 50,
+				"canHover": false
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 12,
+			"cha": 16,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Primordial"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sylph’s innate spellcasting ability is Wisdom (spell save {@dc 13}). The sylph can innately cast the following spells, requiring no components."
+					],
+					"will": [
+						"{@spell invisibility|PHB}"
+					],
+					"daily": {
+						"1": [
+							"{@spell conjure minor elementals|PHB} (air)"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The sylph has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Beat Wings",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 1}) force damage and target must make a {@dc 13} Strength saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"hill"
+			],
+			"fluff": {
+				"entries": [
+					"Sylphs are very beautiful winged creatures that dwell in aerial places.",
+					"They enjoy wandering and aren’t often encountered in their lairs. These lairs are small caves on the sides of mountains, or high atop the tallest trees. Sylphs are solitary and are rarely found in groups.",
+					"{@b Greater Good.} Sylphs will often aid other creatures of good alignment. They have been known to assist adventuring parties.",
+					"{@b Flighty Fey.} These fey can walk but prefer to remain airborne. Sylphs are closely allied with air elementals and can call on their aid."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/353634474644340736/679839177260400654/Sylph-1.png"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"damageTags": [
+				"O"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "5a9c01ee6553ab165bf25b8d342741fa"
+		},
+		{
+			"name": "Toadman",
+			"shortName": "Toadman",
+			"source": "HualielaWalkintheFeywild",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 16,
+			"cha": 5,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Sylvan"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The toadman’s innate spellcasting ability is Wisdom (spell save {@dc 15}, +6 to hit with spell attacks). The toadman can innately cast the following spells, requiring no components."
+					],
+					"will": [
+						"{@spell druidcraft|PHB}",
+						"{@spell thorn whip|PHB}"
+					],
+					"daily": {
+						"2": [
+							"{@spell entangle|PHB}",
+							"{@spell fog cloud|PHB}",
+							"{@spell poison spray|PHB}",
+							"{@spell speak with animals|PHB}"
+						],
+						"1e": [
+							"{@spell animal messenger|PHB}",
+							"{@spell feign death|PHB}",
+							"{@spell pass without trace|PHB}",
+							"{@spell plant growth|PHB}",
+							"{@spell speak with plants|PHB}",
+							"{@spell spike growth|PHB}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The toadman can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The toadman has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Leap",
+					"entries": [
+						"The toadman can make a 10 ft. horizontal jump."
+					]
+				},
+				{
+					"name": "Speak with Frogs and Toads",
+					"entries": [
+						"The toadman can speak with frogs and toads."
+					]
+				},
+				{
+					"name": "Swamp Camouflage",
+					"entries": [
+						"The toadman has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The toadman makes two attacks, one with his sword and one with his tongue."
+					]
+				},
+				{
+					"name": "Swap Sword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage. The target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Twisted Tongue",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"The toadman is the henchman of the Frog Witch. He lives in swampy forests and does whatever his mistress desires. A strange frog-like humanoid, he wears studded leather armor and a ragged cloak.",
+					"{@b Swamp Dweller.} At home in the swamp, the toadman can blend in and hide with ease. He spends most of his time at the Frog Witch’s hut.",
+					"{@b Amphibian Allies.} The toadman forms strong bonds with giant frogs, which are often used as guardians. It also uses them as mounts. He is more popular with the denizens of the swamp than his cruel mistress. However, this fey is wise enough to know he gains many benefits as the henchman of the powerful witch."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/353634474644340736/679840522470293523/af84a597db7fe0931aca4a4fc88ad75c.png"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "ef1702a6fa4c5ca4d87076e7d8acb686"
+		},
+		{
+			"name": "Frog Witch",
+			"shortName": "Frog Witch",
+			"source": "HualielaWalkintheFeywild",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 84",
+				"average": 147
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 21,
+			"con": 23,
+			"int": 17,
+			"wis": 23,
+			"cha": 16,
+			"save": {
+				"dex": "+10",
+				"cha": "+8",
+				"wis": "+11"
+			},
+			"skill": {
+				"deception": "+8",
+				"perception": "+11",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Primordial"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The frog witch’s innate spellcasting ability is Wisdom (spell save {@dc 18}, +11 to hit with spell attacks). The frog witch can innately cast the following spells, requiring no components."
+					],
+					"will": [
+						"{@spell druidcraft|PHB}",
+						"{@spell poison spray|PHB}",
+						"{@spell thorn whip|PHB}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal messenger|PHB}",
+							"{@spell dispel magic|PHB}",
+							"{@spell entangle|PHB}",
+							"{@spell fog cloud|PHB}",
+							"{@spell jump|PHB}",
+							"{@spell pass without trace|PHB}",
+							"{@spell speak with animals|PHB}",
+							"{@spell speak with plants|PHB}",
+							"{@spell spike growth|PHB}",
+							"{@spell water breathing|PHB}"
+						],
+						"1e": [
+							"{@spell blight|PHB}",
+							"{@spell confusion|PHB}",
+							"{@spell dimension door|PHB}",
+							"{@spell insect plague|PHB}",
+							"{@spell tree stride|PHB}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The frog witch can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The frog witch has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The frog witch's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Speak with Frogs and Toads",
+					"entries": [
+						"the frog witch can speak with Frogs and Toads."
+					]
+				},
+				{
+					"name": "Leap",
+					"entries": [
+						"The frog witch can make a 15 feet orizzontal jump."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The frog witch makes two attacks"
+					]
+				},
+				{
+					"name": "Swamp Staff",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage. "
+					]
+				},
+				{
+					"name": "Tongue of the Toad",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6 + 5}) piercing damage. The target must make a successful {@dc 18} Constitution saving throw or take an extra 24 ({@damage 7d6}) poison damage, taking half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Croak {@recharge 4}",
+					"entries": [
+						"The frog witch lets out a thunderous croak that does 31 ({@damage 9d6}) thunder damage in a 60 ft. radius unless a successful {@dc 18} Dexterity saving throw is made. Anyone in this area of effect must also make a {@dc 18} Strength save or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Summon Frogs",
+					"entries": [
+						"The frog witch can summon {@dice 1d8} {@creature giant frog} 2/day. She usually has one of these creatures as her mount."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"The frog witch lives in the swampy areas of the Feywild. This evil fey has her eyes on ruling all of the lands of the fey. She is a very wise and cunning opponent who has already taken over many of the swamps. Those who dare to enter her territory speak of a strange witch riding a frog mount.",
+					"{@b Leader of the Frogs.} Her minions include numerous giant frogs and giant toads, as well as the Toadman. The Toadman is her chief henchman and a powerful foe in his own right."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://gamepedia.cursecdn.com/hearthstone_gamepedia/thumb/6/66/Witch%27s_Apprentice_full.jpg/400px-Witch%27s_Apprentice_full.jpg?version=aa9fb5843e1d0021a078f9cec2da0329"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"T"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "47bf5c319bff1b0e730db7127bf9e105"
+		}
+	]
+}
